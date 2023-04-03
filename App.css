@@ -1,0 +1,119 @@
+html{
+  background-color: rgb(46, 46, 46);
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+a{
+  cursor: pointer;
+  text-decoration: none;
+}
+header{
+  padding: .5rem;
+  border-bottom: solid 1px rgb(66, 65, 65);
+  display: flex;
+  justify-content: space-between;
+}
+.searchAndBtn{
+ 
+}
+#search-bar{
+  transform: translateX(-50%);
+  background-color: black;
+  border: none;
+  width: 50%;
+}
+.searchAndBtn button{
+  /* width:1.3rem;
+  height: 1.3rem; */
+  padding: 0;
+}
+.searchAndBtn button svg{
+  width: .7rem;
+  height: .7rem;
+}
+.logo{
+  width: 3.75rem;
+
+}
+.video-box,
+.related-box{
+  margin:1rem auto 0;
+  padding:0 1rem;
+}
+.video-unit{
+  max-width: 15rem;
+  margin:0 auto 1rem;
+  padding: 0;
+}
+img{
+  width: 100%;
+}
+h3,p{
+  margin:0;
+  font-size: 90%;
+  margin-top: .3rem;
+}
+.video-title{
+  color: white;
+  font-weight: bold;
+}
+.channel-title{
+  margin-top: .5rem;
+  color: rgb(210, 210, 210);
+}
+
+.page-single{
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.single-video{
+  color: white;
+  padding: 1rem;
+  font-size: 80%;
+}
+
+.related-unit{
+  color: white;
+  display: flex;
+  gap: .5rem;
+  width: 100%;
+}
+.related-unit>img{
+  max-width: 7rem;
+}
+.related-unit-des{
+  font-size:.7rem;
+}
+
+@media screen and (min-width: 30em) {
+  .video-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .video-unit{
+    margin: 0 .2rem 1rem;
+  }
+  .logo{
+    width: 7rem;
+  }
+  
+}
+
+@media screen and (min-width: 62.5em){
+  .video-box{
+    max-width: 80rem;
+  }
+  .video-unit{
+    max-width: 17rem;
+  }
+  header{
+    padding: 2.5rem 3rem;
+  }
+  .logo{
+    width: 15rem;
+  }
+}
